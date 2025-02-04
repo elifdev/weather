@@ -2,10 +2,7 @@
 
 Bu proje, kullanıcının girdiği şehir ismine veya bulunduğu konuma göre güncel hava durumunu gösteren bir hava durumu uygulamasıdır. 🌤️☁️🌧️❄️
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/elifdev/weather/raw/main/readme/weather1.mp4" type="video/mp4">
-  Tarayıcınız video etiketini desteklemiyor.
-</video>
+[video](https://github.com/user-attachments/assets/44a759a7-cd51-4518-bdff-d5b37beaf2c2)
 
 
 
