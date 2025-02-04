@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #222;
+    transition: background 0.5s ease-in-out;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background 0.5s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px; /* Minimum yükseklik ekleyin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* İsteğe bağlı gölge efekti */
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 16px;
+    flex: 1;
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+.search button {
+    border: 0;
+    background: #ebfffc;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 20px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin: 30px 0 30px 0;
+}
+
+.weather h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.weather h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.col img {
+    width: 50px;
+    margin-left: 15px;
+}
+
+.humidity, .wind {
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
+
+
+.sun-details {
+    margin-top: 20px;
+    font-size: 14px;
+}
